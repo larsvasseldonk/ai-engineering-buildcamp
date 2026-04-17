@@ -1,0 +1,21 @@
+.env
+.venv
+
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS system files
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
