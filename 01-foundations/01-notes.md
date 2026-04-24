@@ -81,3 +81,18 @@ Benefits of RAG
 - Source attribution - we can cite where information came from
 - Updatable - update our docs, update the answers
 - Private data - use internal knowledge the LLM hasn't seen
+
+
+### Chunking documents
+
+Considerations:
+- Only add relevant information in context-window:
+  - We pay per token, the more context we send to the LLM, the more we pay
+  - Context windows are large, but we don't want to overwhelm the LLM
+- So we chunk our documents, we chop a document into sub documents
+
+The right chunk size depends on your use case:
+- Small chunks (300-500 chars) - more precise search, but may lose context
+- Medium chunks (500-1000 chars) - good balance for most use cases
+- Large chunks (1000-2000 chars) - more context per chunk, but less precise
+
