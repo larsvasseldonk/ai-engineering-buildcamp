@@ -26,9 +26,33 @@ A big part of the course is working on your capstone project in which you build 
   - Morning report
   - Pain: 
 
+## Project Cards
+
+### Language-learner
 
 I will build a WhatsApp and Telegram-based Italian language learning assistant for intermediate learners to improve by sending voice or text messages.  
 Input: the user’s messages.  
 Processing: a conversational AI that gives instant, personalized grammar corrections and vocabulary recommendations.  
 Output: improved writing and speaking skills, with clear explanations.  
 Success metric: users report feeling more confident in their Italian after a few weeks.
+
+### Data assistant
+
+I will build a WhatsApp-based data assistant that allows users to query a relational data warehouse using both natural language and reusable command shortcuts.
+
+Problem:
+- Business users cannot easily retrieve data from a complex data warehouse without relying on data engineers, due to the need for SQL and fragmented reporting tools.
+- Data engineers spend significant time repeatedly answering similar questions and manually querying data, leading to inefficiency.
+- There is no simple, trusted interface where users can quickly access validated data insights or reuse common queries.
+
+Input: 
+User messages via WhatsApp, either as natural language queries or predefined commands (e.g., /today, /revenue).
+
+Processing: 
+Classify user intent; retrieve relevant schema and similar past queries from a query memory system; generate and validate SQL using retrieval-augmented generation; execute queries in DuckDB; and compute trust signals based on similarity to previously validated queries.
+
+Output: 
+Concise answers delivered in WhatsApp, including results, explanations, SQL traces, and trust indicators (e.g., similar queries, tables used).
+
+Success metric: 
+Reduction in repeated manual queries and improved user trust, measured by reuse of shortcuts and accuracy on predefined business questions.
