@@ -56,3 +56,14 @@ Concise answers delivered in WhatsApp, including results, explanations, SQL trac
 
 Success metric: 
 Reduction in repeated manual queries and improved user trust, measured by reuse of shortcuts and accuracy on predefined business questions.
+
+### Ad-hoc analyzing AGENT
+
+Problem: spend too much time on doing simple analysis that business users cannot do.
+
+That's why: I will build an data assitant agent takes a data question as input, searches the relevant data and documents, create visualizations, add this to a quarto presentation, makes it reproducable, and e-mails it back to the user.
+
+What is important:
+- analysis is reproducable, transparant, and includes an explanations of results
+- visualisations are easy to read, and follow visualisation best practices
+- it uses colors from our company
