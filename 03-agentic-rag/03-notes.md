@@ -62,3 +62,19 @@ Agentic RAG:
 - Multiple iterations with the LLM in control
 
 The agentic approach gives the LLM autonomy. It can refine searches, explore different angles, and decide when it has enough information.
+
+## Agentic Search
+
+Tackles the problem of chunking. When we take a big document, chunk it, we have to hope the retrieved chunks contain what we need. 
+
+Agentic search is similar to how you search the web. You don't get pre-chunked fragments. You:
+- Search for something
+- Look at the snippets and titles
+- Open the most relevant articles
+- Read through them to find what you need
+
+Goes beyond traditional agentic RAG because:
+- No information loss from chunking
+- Agent can follow its curiosity
+- More natural research pattern
+
