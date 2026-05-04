@@ -11,6 +11,8 @@ A big part of the course is working on your capstone project in which you build 
   - Problem: hard to always think of a nice recipes and order ingredients
 - Wedding coach: that helps you with planning your wedding
 - Voice notes to tasks
+- Email organiser: 
+  - Problem: too many spam emails: newsletters, commercials, etc. I want to get rid of it but can't keep track of it. For many I can unsubscribe. I would great to have a agent that helps met organiszing my email, unsubscribing from unuseful newsletters.
 
 ## Work
 
