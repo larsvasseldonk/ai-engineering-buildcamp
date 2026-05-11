@@ -59,6 +59,15 @@ Concise answers delivered in WhatsApp, including results, explanations, SQL trac
 Success metric: 
 Reduction in repeated manual queries and improved user trust, measured by reuse of shortcuts and accuracy on predefined business questions.
 
+Sources:
+- https://medium.com/@prasadms.it83/building-a-text-to-sql-app-with-openai-and-duckdb-99c82e36dd72
+- https://motherduck.com/blog/langchain-sql-agent-duckdb-motherduck/
+  - Nice overview of how the agent thinks
+- https://medium.com/madhukarkumar/chapter-1-how-to-build-accurate-rag-over-structured-and-semi-structured-databases-996c68098dba
+  - Interesting thoughts on structured data and RAG
+- https://medium.com/madhukarkumar/chapter-2-extraction-strategy-for-accurate-rag-over-structured-databases-2bbeeefcb276
+  - How to extract relevant information from a database for RAG
+
 ### Ad-hoc analyzing AGENT
 
 Problem: spend too much time on doing simple analysis that business users cannot do.
